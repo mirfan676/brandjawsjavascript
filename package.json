@@ -1,0 +1,25 @@
+{
+  "name": "brandjawsjavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirfan676/brandjawsjavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirfan676/brandjawsjavascript/issues"
+  },
+  "homepage": "https://github.com/mirfan676/brandjawsjavascript#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2"
+  }
+}
