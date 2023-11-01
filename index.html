@@ -4,16 +4,79 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>HTML Code Examples</h1>
-    <div class="button-container">
-        <button onclick="showParagraphCode()">Show Paragraph Code</button>
-        <button onclick="showHeadingCode()">Show Heading Code</button>
-        <button onclick="showButtonCode()">Show Button Code</button>
-        <button onclick="showJavascriptCode()">Show JavaScript Code</button>
-    </div>
-    <div class="code-container">
-        <textarea id="code-display" readonly></textarea>
-    </div>
+    <header class="sticky">
+        <h1>Questionnaire</h1>
+        <nav>
+            <ul>
+                <li><a href="#question1">Question 1</a></li>
+                <li><a href="#question2">Question 2</a></li>
+                <li><a href="#question3">Question 3</a></li>
+                <li><a href="#question4">Question 4</a></li>
+                <li><a href="#question5">Question 5</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="question1">
+            <h2>Question 1</h2>
+            <p>What is your answer to Question 1?</p>
+            <div class="answer-container">
+                <textarea id="answer1" rows="3"></textarea>
+                <button onclick="submitAnswer('answer1')">Submit Answer</button>
+            </div>
+        </section>
+
+        <section id="question2">
+            <h2>Question 2</h2>
+            <p>What is your answer to Question 2?</p>
+            <div class="answer-container">
+                <textarea id="answer2" rows="3"></textarea>
+                <button onclick="submitAnswer('answer2')">Submit Answer</button>
+            </div>
+        </section>
+
+        <section id="question3">
+            <h2>Question 3</h2>
+            <p>What is your answer to Question 3?</p>
+            <div class="answer-container">
+                <textarea id="answer3" rows="3"></textarea>
+                <button onclick="submitAnswer('answer3')">Submit Answer</button>
+            </div>
+        </section>
+
+        <section id="question4">
+            <h2>Question 4</h2>
+            <p>What is your answer to Question 4?</p>
+            <div class "answer-container">
+                <textarea id="answer4" rows="3"></textarea>
+                <button onclick="submitAnswer('answer4')">Submit Answer</button>
+            </div>
+        </section>
+
+        <section id="question5">
+            <h2>Question 5</h2>
+            <p>What is your answer to Question 5?</p>
+            <div class="answer-container">
+                <textarea id="answer5" rows="3"></textarea>
+                <button onclick="submitAnswer('answer5')">Submit Answer</button>
+            </div>
+        </section>
+
+        <section id="profile" style="display: none;">
+            <h2>Your Profile</h2>
+            <p>Enter your name:</p>
+            <input type="text" id="name" />
+            <p>Enter your class name:</p>
+            <input type="text" id="className" />
+            <button onclick="createProfile()">Create Profile</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <button onclick="viewProfile()" id="viewProfileButton" style="display: none;">View Profile</button>
+    </footer>
 
     <script src="script.js"></script>
 </body>

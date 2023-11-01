@@ -1,23 +1,98 @@
-body {
+/* Sticky Header */
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.sticky nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sticky nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.sticky a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
     font-family: Arial, sans-serif;
-    text-align: center;
 }
 
-.button-container {
-    margin-top: 20px;
+/* Sections */
+section {
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
+/* Answer Container */
+.answer-container {
+    margin: 10px 0;
+}
+
+/* Textareas */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+/* Buttons */
 button {
-    margin: 5px;
-    padding: 15px;
-    background-color: #c4c4c4;
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.code-container {
-    margin: 20px;
+button:hover {
+    background-color: #005AA8;
 }
 
-#code-display {
-    width: 80%;
-    height: 200px;
+/* Profile Section */
+#profile {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* View Profile Button */
+#viewProfileButton {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#viewProfileButton:hover {
+    background-color: #45A249;
 }
