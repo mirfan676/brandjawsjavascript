@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 15px;
+    background-color: #c4c4c4;
+}
+
+.code-container {
+    margin: 20px;
+}
+
+#code-display {
+    width: 80%;
+    height: 200px;
+}
