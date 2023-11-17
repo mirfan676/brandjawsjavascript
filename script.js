@@ -1,9 +1,7 @@
-"use strict";
-
 var answers = {};
-var questionCount = 5;
+var questionCount = 6;
 var currentQuestion = 1;
-var headerHeight = document.querySelector('.sticky').offsetHeight;
+var headerHeight = document.querySelector('.header').offsetHeight;
 function submitAnswer(answerId) {
   var answer = document.getElementById(answerId).value;
   answers[answerId] = answer;
@@ -67,7 +65,8 @@ function getCorrectAnswer(questionNumber) {
     "2": "2",
     "3": "3",
     "4": "4",
-    "5": "5"
+    "5": "5",
+    "6": "6",
   };
   return correctAnswers[questionNumber];
 }

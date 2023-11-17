@@ -1,41 +1,10 @@
-/* Sticky Header */
-.sticky {
-    position: sticky;
-    top: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    z-index: 100;
-    text-align: center;
-}
 
-.sticky nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sticky nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.sticky a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Main Content */
-main {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
 
 /* Sections */
 section {
     margin: 20px 0;
     background-color: #f9f9f9;
     padding: 20px;
-    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
@@ -48,9 +17,12 @@ section {
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    border: 1px solid #e7e1e1;
+}
+textarea:focus {
+    outline: none;
 }
 
 /* Buttons */
@@ -97,3 +69,5 @@ footer {
 #viewProfileButton:hover {
     background-color: #45A249;
 }
+
+
